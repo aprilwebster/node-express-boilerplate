@@ -1,0 +1,23 @@
+{
+  "name": "node-express-boilerplate",
+  "version": "1.0.0",
+  "description": "A basic boilerplate node + express web app server.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.0",
+    "npm": ">4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awebster/node-express-boilerplate"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "April Webster",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {}
+}
