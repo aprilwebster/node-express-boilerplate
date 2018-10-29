@@ -1,4 +1,5 @@
 const express = require('express');
+
 const app = express();
 
 // Bootstrap application settings
@@ -12,4 +13,3 @@ app.get('/', (req, res) => {
 });
 
 module.exports = app;
-
