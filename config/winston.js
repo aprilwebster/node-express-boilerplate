@@ -22,7 +22,8 @@ const logger = winston.createLogger({
         winston.format.json()
       )
     })
-  ]
+  ],
+  exitOnError: false
 });
 
 //
@@ -31,7 +32,8 @@ const logger = winston.createLogger({
 // 
 if (process.env.NODE_ENV !== 'production') {
   logger.add(new winston.transports.Console({
-    format: winston.format.simple()
+    format: winston.format.simple(),
+    colorize: true
   }));
 }
 
