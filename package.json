@@ -15,12 +15,16 @@
     "start": "node server.js",
     "lint": "eslint ."
   },
+  "pre-commit": [
+    "lint"
+  ],
   "author": "April Webster",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "eslint": "^5.8.0"
+    "eslint": "^5.8.0",
+    "pre-commit": "^1.2.2"
   }
 }
